@@ -1,0 +1,73 @@
+[
+  {
+    "description": "I want to Login ",
+    "keyword": "Feature",
+    "name": "User Login",
+    "line": 1,
+    "id": "user-login",
+    "tags": [],
+    "uri": "userLoginSuccess.feature",
+    "elements": [
+      {
+        "id": "user-login;the-user-is-now-logged-in",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "The user is now logged in",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the \"user-login\" page",
+            "result": {
+              "status": "passed",
+              "duration": 151000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I enter \"George312\"",
+            "result": {
+              "status": "passed",
+              "duration": 270000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I enter \"hsj%2*sc5$\"",
+            "result": {
+              "status": "passed",
+              "duration": 263000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I Click the \"Submit\" button",
+            "result": {
+              "status": "passed",
+              "duration": 2111000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see written in a window user \"George312 is now logged in!\"",
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

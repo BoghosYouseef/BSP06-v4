@@ -1,0 +1,73 @@
+[
+  {
+    "description": "I want to be able to navigate to the user Login page,\nbut still be able to go back to the main page.",
+    "keyword": "Feature",
+    "name": "Login Page Navigation",
+    "line": 1,
+    "id": "login-page-navigation",
+    "tags": [],
+    "uri": "LoginNavigation.feature",
+    "elements": [
+      {
+        "id": "login-page-navigation;navigate-to-user-login-page",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Navigate to user Login page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on the main page",
+            "result": {
+              "status": "passed",
+              "duration": 494000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I click the \"User Login\" button",
+            "result": {
+              "status": "passed",
+              "duration": 83000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should navigate to the \"user-login\" page",
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I should see \"User Login\"",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "But ",
+            "line": 12,
+            "name": "I can still go back to the main page",
+            "result": {
+              "status": "passed",
+              "duration": 1171000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

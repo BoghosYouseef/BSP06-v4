@@ -1,0 +1,133 @@
+[
+  {
+    "description": "I want to register a new user",
+    "keyword": "Feature",
+    "name": "User Registration",
+    "line": 1,
+    "id": "user-registration",
+    "tags": [],
+    "uri": "userRegistration.feature",
+    "elements": [
+      {
+        "id": "user-registration;the-new-user-is-registered-successfully",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "The new user is registered successfully",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the \"user-registration\" page and I want to resgister a new user",
+            "result": {
+              "status": "passed",
+              "duration": 8408000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I enter \"George312\"",
+            "result": {
+              "status": "passed",
+              "duration": 242000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I enter \"hsj%2*sc5$\"",
+            "result": {
+              "status": "passed",
+              "duration": 263000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I Click the \"Submit\" button",
+            "result": {
+              "status": "passed",
+              "duration": 2098000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see written in a window User \"George312 has been registered successfully!\"",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-registration;the-user-could-not-be-registered-because-a-registration-with-the-same-user-name-already-exists",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "The user could not be registered because a registration with the same user name already exists",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I am on the \"user-registration\" page and I want to resgister an existing user",
+            "result": {
+              "status": "passed",
+              "duration": 95000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I enter \"Michael\"",
+            "result": {
+              "status": "passed",
+              "duration": 221000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I enter \"hsj%2*sc5$\"",
+            "result": {
+              "status": "passed",
+              "duration": 257000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I Click the \"Submit\" button",
+            "result": {
+              "status": "passed",
+              "duration": 2094000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I should see written in a window \"User Michael is already registered!\"",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

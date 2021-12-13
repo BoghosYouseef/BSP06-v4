@@ -1,0 +1,133 @@
+[
+  {
+    "description": "I want to Login ",
+    "keyword": "Feature",
+    "name": "User Login",
+    "line": 1,
+    "id": "user-login",
+    "tags": [],
+    "uri": "userLogin.feature",
+    "elements": [
+      {
+        "id": "user-login;the-user-is-now-logged-in",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "The user is now logged in",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the \"user-login\" page and I provide correct credentials",
+            "result": {
+              "status": "passed",
+              "duration": 3069000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I enter \"George312\"",
+            "result": {
+              "status": "passed",
+              "duration": 243000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I enter \"hsj%2*sc5$\"",
+            "result": {
+              "status": "passed",
+              "duration": 254000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I Click the \"Submit\" button",
+            "result": {
+              "status": "passed",
+              "duration": 2096000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see written in a window user \"George312 is now logged in!\"",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-login;the-user-provided-wrong-credentials",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "The user provided wrong credentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I am on the \"user-login\" page and I provide incorrect credentials",
+            "result": {
+              "status": "passed",
+              "duration": 97000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I enter \"George312\"",
+            "result": {
+              "status": "passed",
+              "duration": 242000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I enter \"hsj%2*sc5$3\"",
+            "result": {
+              "status": "passed",
+              "duration": 264000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I Click the \"Submit\" button",
+            "result": {
+              "status": "passed",
+              "duration": 2091000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I should see written in a window user \"Login Failed! wrong password\"",
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

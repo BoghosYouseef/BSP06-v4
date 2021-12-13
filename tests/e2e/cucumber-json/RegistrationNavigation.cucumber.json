@@ -1,0 +1,73 @@
+[
+  {
+    "description": "I want to be able to navigate to the user Registration page,\nbut still be able to go back to the main page.",
+    "keyword": "Feature",
+    "name": "Registration Page Navigation",
+    "line": 1,
+    "id": "registration-page-navigation",
+    "tags": [],
+    "uri": "RegistrationNavigation.feature",
+    "elements": [
+      {
+        "id": "registration-page-navigation;navigate-to-user-registration-page",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Navigate to user Registration page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I am on the main page",
+            "result": {
+              "status": "passed",
+              "duration": 1790000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click the \"User Registration\" button",
+            "result": {
+              "status": "passed",
+              "duration": 82000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should navigate to the \"user-registration\" page",
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I should see \"User Registration\"",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "But ",
+            "line": 13,
+            "name": "I can still go back to the main page",
+            "result": {
+              "status": "passed",
+              "duration": 1170000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

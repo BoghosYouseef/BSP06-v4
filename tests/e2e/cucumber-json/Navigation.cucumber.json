@@ -1,0 +1,133 @@
+[
+  {
+    "description": "I want to be able to navigate the website to two different pages,\nbut still be able to go back to the main page.",
+    "keyword": "Feature",
+    "name": "Website Navigation",
+    "line": 1,
+    "id": "website-navigation",
+    "tags": [],
+    "uri": "Navigation.feature",
+    "elements": [
+      {
+        "id": "website-navigation;navigate-to-user-login-page",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Navigate to user Login page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on the main page",
+            "result": {
+              "status": "passed",
+              "duration": 317000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I click the \"User Login\" button",
+            "result": {
+              "status": "passed",
+              "duration": 85000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should navigate to the \"user-login\" page",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I should see \"User Login\"",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "But ",
+            "line": 12,
+            "name": "I can still go back to the main page",
+            "result": {
+              "status": "passed",
+              "duration": 1187000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "website-navigation;navigate-to-user-registration-page",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Navigate to user Registration page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "I am on the main page",
+            "result": {
+              "status": "passed",
+              "duration": 79000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I click the \"User Registration\" button",
+            "result": {
+              "status": "passed",
+              "duration": 79000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I should navigate to the \"user-registration\" page",
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I should see \"User Registration\"",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "But ",
+            "line": 21,
+            "name": "I can still go back to the main page",
+            "result": {
+              "status": "passed",
+              "duration": 1151000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
